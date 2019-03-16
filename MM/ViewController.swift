@@ -15,14 +15,21 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var matsLabel: UILabel!
     @IBOutlet weak var maraudersLabel: UILabel!
+    @IBOutlet weak var regionText: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func getMats() {
+        mats += 1
+        matsLabel.text = String(mats)
+    }
     
-
-
+    @IBAction func trainMarauder() {
+        marauders += 1
+        maraudersLabel.text = String(marauders)
+    }
 }
 
