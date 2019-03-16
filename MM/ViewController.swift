@@ -22,14 +22,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction func getMats() {
-        mats += 1
+    func updateLabels() {
         matsLabel.text = String(mats)
+        maraudersLabel.text = String(marauders)
+    }
+    
+    @IBAction func getMats() {
+        let matBonus = 1 + (marauders * 1)
+        mats += matBonus
+        updateLabels()
     }
     
     @IBAction func trainMarauder() {
-        marauders += 1
-        maraudersLabel.text = String(marauders)
+        if mats >= 10 {
+            mats -= 10
+            marauders += 1
+        }
+        updateLabels()
     }
 }
 
