@@ -12,6 +12,7 @@
 		47F72BD1223D497B00295C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F72BCF223D497B00295C9A /* Main.storyboard */; };
 		47F72BD3223D497B00295C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F72BD2223D497B00295C9A /* Assets.xcassets */; };
 		47F72BD6223D497B00295C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F72BD4223D497B00295C9A /* LaunchScreen.storyboard */; };
+		47F72BDE223D54F200295C9A /* regionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F72BDD223D54F200295C9A /* regionProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		47F72BD2223D497B00295C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F72BD5223D497B00295C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47F72BD7223D497B00295C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F72BDD223D54F200295C9A /* regionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regionProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				47F72BCB223D497B00295C9A /* AppDelegate.swift */,
 				47F72BCD223D497B00295C9A /* ViewController.swift */,
+				47F72BDD223D54F200295C9A /* regionProvider.swift */,
 				47F72BCF223D497B00295C9A /* Main.storyboard */,
 				47F72BD2223D497B00295C9A /* Assets.xcassets */,
 				47F72BD4223D497B00295C9A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				47F72BCE223D497B00295C9A /* ViewController.swift in Sources */,
 				47F72BCC223D497B00295C9A /* AppDelegate.swift in Sources */,
+				47F72BDE223D54F200295C9A /* regionProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     var mats = 0
     var marauders = 0
+    var regionProv = regionProvider()
+    var cost = 0
+    var percentChance = 0
     
     @IBOutlet weak var matsLabel: UILabel!
     @IBOutlet weak var maraudersLabel: UILabel!
@@ -25,6 +28,7 @@ class ViewController: UIViewController {
     func updateLabels() {
         matsLabel.text = String(mats)
         maraudersLabel.text = String(marauders)
+        regionText.text = "Cost: \(cost), \(percentChance)%"
     }
     
     @IBAction func getMats() {
@@ -39,6 +43,22 @@ class ViewController: UIViewController {
             marauders += 1
         }
         updateLabels()
+    }
+    
+    @IBAction func region1() {
+        
+    }
+    
+    @IBAction func region2() {
+        
+    }
+    
+    @IBAction func region3() {
+        
+    }
+    
+    @IBAction func region4() {
+        
     }
 }
 
